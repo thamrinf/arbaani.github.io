@@ -137,7 +137,7 @@
       width: 80%;
       height: 100%;
       padding: 2rem;
-      background-color: #FBBA85;
+      background-color: var(--second-color);
       transition: .5s;
     }
   }
@@ -146,7 +146,7 @@
   }
   .nav__link{
     position: relative;
-    color: #fff;
+    color: #111;
   }
   .nav__link:hover{
     position: relative;
@@ -161,10 +161,10 @@
     background-color: var(--first-color);
   }
   .nav__logo{
-    color: var(--first-color);
+    color: var(--second-color);
   }
   .nav__toggle{
-    color: var(--first-color);
+    color: var(--second-color);
     font-size: 1.5rem;
     cursor: pointer;
   }
@@ -260,9 +260,7 @@
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
   }
 
-
-  /* button */
- .contact__button{
+.contact__button{
   display: block;
   background-color: var(--first-color);
   color: var(--white-color);
@@ -290,20 +288,6 @@
   .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
   }
-
-
-  /*BUTTONS*/
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-}
-.button:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
-}
 
 /* footer */
 .footer{
@@ -416,6 +400,7 @@
   .work__container{
     justify-items: center;
   }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -427,5 +412,9 @@
     right: 10%;
     
     width: 35%;
+  }
+
+  .contact__button {
+    margin-left: 180px;
   }
 }

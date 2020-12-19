@@ -262,7 +262,7 @@
 
 .contact__button{
   display: block;
-  background-color: #e28f1d;
+  background-color: #111;
   color: #FFFFFF;
   padding: .75rem 2.5rem;
   margin-left: auto;
@@ -316,7 +316,7 @@
     position: fixed;
     width: 50px;
     height: 50px;
-    background-color: #FBBA85;
+    background-color: #111;
     bottom: 40px;
     right: 25px;
     padding: 12px;

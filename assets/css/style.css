@@ -262,7 +262,7 @@
 
 .contact__button{
   display: block;
-  background-color: #FBBA85;
+  background-color: #000000;
   color: #FFFFFF;
   padding: .75rem 2.5rem;
   margin-left: auto;
@@ -279,7 +279,7 @@
   /*BUTTONS*/
   .button{
     display: inline-block;
-    background-color: #FBBA85;
+    background-color: #00000;
     color: #fff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);

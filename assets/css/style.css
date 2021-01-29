@@ -293,7 +293,7 @@
 }
 #rig li{
   display: inline-block;
-  *display: inline;
+  display: inline;
   width: 25%;
   vertical-align: middle;
   box-sizing: border-box;

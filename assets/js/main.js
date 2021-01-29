@@ -54,3 +54,7 @@ var typed = new Typed(".typing", {
 /*SCROLL WORK*/
     sr.reveal('.work__img', { interval: 200 });
     sr.reveal('.work__input', { interval: 200 });
+
+/*SCROLL DESIGN*/
+    sr.reveal('.design__img', { interval: 200 });
+ 

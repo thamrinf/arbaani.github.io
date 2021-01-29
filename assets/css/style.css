@@ -263,7 +263,7 @@
 .contact__button{
   display: block;
   background-color: #111;
-  color: #FFFFFF;
+  color: #fff;
   padding: .75rem 2.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -276,10 +276,75 @@
   color: #f5f5f5;
 }
 
+  /*design*/
+  .design__container{
+
+    margin-bottom: 20%;
+    width: 100%;
+  }
+
+  #rig{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  background-color: none;
+}
+#rig li{
+  display: inline-block;
+  *display: inline;
+  width: 25%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rig-cell{
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.rig-img1{
+  display: block;
+  border: none;
+  width: 100%;
+  height: 0;
+}
+.rig-img2{
+  display: block;
+  border: none;
+  width: 100%;
+  height: 0;
+}
+
+#rig li:hover .rig-overlay{
+  opacity: 0.5;
+}
+
+@media(max-width: 9000px){
+  #rig li{width: 50%;}
+}
+@media(max-width: 800px){
+  #rig li{width: 50%;}
+}
+@media(max-width: 500px){
+  #rig li{width: 100%;}
+}
+@media(max-width: 350px){
+  #rig li{width: 100%;}
+}
+
   /*BUTTONS*/
   .button{
     display: inline-block;
-    background-color: #00000;
+    background-color: var(--first-color);
     color: #fff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
@@ -288,6 +353,7 @@
   .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
   }
+
 
 /* footer */
 .footer{
@@ -328,6 +394,7 @@
     color: #fff;
     font-size: 22px;
   }
+
 
   /* media queries */
   @media screen and (min-width: 768px){

@@ -35,7 +35,7 @@ const sr = ScrollReveal({
 
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["Dinda Safira Arbaani"],
+    strings: ["Dinda Safira Arba'ani"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true

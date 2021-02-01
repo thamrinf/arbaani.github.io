@@ -302,7 +302,10 @@
 }
 
 .rig-cell{
-  margin: 10%;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+    margin-top: 5px;
   border-radius: 5px;
   border: none;
   display: block;

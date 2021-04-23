@@ -10,6 +10,7 @@
 /* colors */
 :root {
     --first-color: #FBBA85;
+    --second--color:#FBBA85;
 }
 
 /* fonts */
@@ -137,7 +138,7 @@
       width: 80%;
       height: 100%;
       padding: 2rem;
-      background-color: #00000;
+      background-color: var(--first-color); ;
       transition: .5s;
     }
   }

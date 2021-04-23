@@ -479,15 +479,6 @@
 	}
 	/* End about Section */
 
-.section-title{
-    position: relative;
-    font-size: var(--big-font-size);
-    color: var(--first-color);
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-4);
-    text-align: center;
-  }
-
 }
 
 @media screen and (min-width: 1024px){
@@ -520,7 +511,7 @@
 
 .section-title{
     position: relative;
-    font-size: var(--big-font-size);
+    font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);

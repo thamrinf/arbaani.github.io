@@ -502,7 +502,7 @@
 	}
 }
 #about .about-item h2 {
-	font-size: var(--mb-2);
+	font-size: var( --normal-font-size);
 	color: var(--first-color);
 	margin-bottom: 10px;
   margin: auto;
@@ -511,7 +511,7 @@
 
 .section-title{
     position: relative;
-    font-size: var(--big-font-size);
+    font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
